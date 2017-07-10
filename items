@@ -29,3 +29,6 @@ class Rock(Weapon):
 class Dagger(Weapon):
     def __init__(self):
         super().__init__(name="Dagger",description="A sharp dagger to stab and slash enemies with.", value="10", damage="10")
+
+class Sword(Weapon):
+    pass
